@@ -36,9 +36,11 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
+    
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
-
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-laup.jpg) no-repeat;
@@ -46,7 +48,6 @@ section#login > div#imagem {
     background-position: center center;
     height: 200px;
 }
-
 section#login > div#formulario {
     display: block;
     padding: 10px;
